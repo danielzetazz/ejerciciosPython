@@ -1,0 +1,166 @@
+[
+    {
+        "tipo": "Empleado",
+        "nombre": "Carlos",
+        "edad": 30,
+        "departamento": "Recursos Humanos"
+    },
+    {
+        "tipo": "Empleado",
+        "nombre": "Lucia",
+        "edad": 22,
+        "departamento": "Contabilidad"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Laura",
+        "edad": 40,
+        "departamento": "Marketing",
+        "equipo": "Equipo A"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Jorge",
+        "edad": 45,
+        "departamento": "Ventas",
+        "equipo": "Equipo B"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Pablo",
+        "edad": 38,
+        "departamento": "Operaciones",
+        "equipo": "Equipo C"
+    },
+    {
+        "tipo": "Desarrollador",
+        "nombre": "Mario",
+        "edad": 25,
+        "departamento": "IT",
+        "lenguaje_programacion": "Python"
+    },
+    {
+        "tipo": "Desarrollador",
+        "nombre": "Ana",
+        "edad": 28,
+        "departamento": "IT",
+        "lenguaje_programacion": "Java"
+    },
+    {
+        "tipo": "Desarrollador",
+        "nombre": "Ruben",
+        "edad": 32,
+        "departamento": "IT",
+        "lenguaje_programacion": "C#"
+    },
+    {
+        "tipo": "Empleado",
+        "nombre": "Sofia",
+        "edad": 26,
+        "departamento": "Administración"
+    },
+    {
+        "tipo": "Empleado",
+        "nombre": "Diego",
+        "edad": 29,
+        "departamento": "Compras"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    },
+    {
+        "tipo": "Gerente",
+        "nombre": "Lucía",
+        "edad": 40,
+        "departamento": "Dirección",
+        "equipo": "Equipo de Marketing"
+    }
+]

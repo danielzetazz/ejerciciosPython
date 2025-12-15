@@ -1,0 +1,4 @@
+Nombre: Simon Perez
+Edad: 30
+Ciudad: Madrid
+Profesion: Ingeniero
