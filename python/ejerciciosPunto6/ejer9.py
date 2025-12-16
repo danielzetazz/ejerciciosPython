@@ -12,6 +12,6 @@ with open(nombre_documento, "w", newline="") as fichero:
 
 with open(nombre_documento, "r") as fuente:
     lector_datos = csv.reader(fuente)
-    
+    lector_datos.__next__()
     for registro in lector_datos:
         print(f"Registro: {registro[0]} - Número: {registro[1]}")

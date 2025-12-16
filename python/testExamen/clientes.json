@@ -1,0 +1,23 @@
+[
+     {
+          "nombre": "Ana Pérez",
+          "email": "ana@gmail.com",
+          "ciudad": "Jerez",
+          "telefono": "678123456",
+          "pedidos": "120-45-300-80"
+     },
+     {
+          "nombre": "Luis Romero",
+          "email": "lromero@yahoo.com",
+          "ciudad": "Rota",
+          "telefono": "612987456",
+          "pedidos": "50-60"
+     },
+     {
+          "nombre": "Test",
+          "email": "test",
+          "ciudad": "test",
+          "telefono": "test",
+          "pedidos": "29-39-40"
+     }
+]
