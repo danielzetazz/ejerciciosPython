@@ -80,4 +80,4 @@ while keepAlive:
             guardarAutosCsv()
         case "6": 
             mostrarAutosCsv()
-        case "_": print("Introduce una opción correcta")
+        case _: print("Introduce una opción correcta")

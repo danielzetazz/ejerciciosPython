@@ -1,0 +1,23 @@
+[
+     {
+          "tipo": "libro",
+          "titulo": "Cien años de soledad",
+          "autor": "Gabriel García Márquez",
+          "anio": 1967,
+          "genero": "Realismo Mágico"
+     },
+     {
+          "tipo": "revista",
+          "titulo": "National Geographic",
+          "autor": "Varios",
+          "anio": 2023,
+          "numero_edicion": 450
+     },
+     {
+          "tipo": "libro",
+          "titulo": "1984",
+          "autor": "George Orwell",
+          "anio": 1949,
+          "genero": "Distopía"
+     }
+]
