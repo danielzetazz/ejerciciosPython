@@ -1,0 +1,44 @@
+[
+     {
+          "tipo": "auto",
+          "marca": "Toyota",
+          "modelo": "Corolla",
+          "anio": 2020,
+          "num_puertas": 4
+     },
+     {
+          "tipo": "auto",
+          "marca": "Honda",
+          "modelo": "Civic",
+          "anio": 2018,
+          "num_puertas": 4
+     },
+     {
+          "tipo": "auto",
+          "marca": "Ford",
+          "modelo": "Focus",
+          "anio": 2017,
+          "num_puertas": 5
+     },
+     {
+          "tipo": "auto",
+          "marca": "Chevrolet",
+          "modelo": "Malibu",
+          "anio": 2019,
+          "num_puertas": 4
+     },
+     {
+          "tipo": "auto",
+          "marca": "Nissan",
+          "modelo": "Sentra",
+          "anio": 2021,
+          "num_puertas": 4
+     },
+     {
+          "tipo": "moto",
+          "marca": "test",
+          "modelo": "test",
+          "anio": "test",
+          "cilindraje": "test"
+     }
+]

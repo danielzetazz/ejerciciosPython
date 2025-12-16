@@ -31,10 +31,17 @@ def introducirCliente():
     ciudad = input("Introduce la ciudad: ")
     telefono = input("Introduce el telefono: ")
     pedidos = input("Introduce los pedidos realizados(formato XX-XX-XX): ")
+    try:
 
-    clienteNuevo=Cliente(nombre, email, ciudad, telefono, pedidos)
-    listaClientes.append(clienteNuevo)
-    guardarClientes()
+        clienteNuevo=Cliente(nombre, email, ciudad, telefono, pedidos)
+        listaClientes.append(clienteNuevo)
+        guardarClientes()
+
+    except ValueError as e:
+
+        print(f"Valores incorrectos: {e}")
+
+
 
 def buscarPorEmail(email):
     for cliente in listaClientes:
