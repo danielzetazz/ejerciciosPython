@@ -46,8 +46,28 @@ keepAlive = True
 def guardarYSalir():
     guardarVehiculos()
 
+import csv
+def guardarAutosCsv():
+    with open("autos.csv", "w", encoding="utf-8") as archivo:
+        cabeceras=["tipo", "marca", "modelo", "anio", "num_puertas"]
+        autos = []
+        for v in listaVehiculos:
+            if isinstance(v, Auto):
+                autos.append(v.to_dict())
+        escritor = csv.DictWriter(archivo, fieldnames=cabeceras)
+        escritor.writeheader()
+        print(autos)
+        for a in autos:
+           escritor.writerow(a)
+        
+def mostrarAutosCsv():
+    with open ("autos.csv", "r", encoding="utf-8") as archivo:
+        lector= csv.reader(archivo)
+        for l in lector:
+            print(l)
+            
 while keepAlive:
-    print("1. Agregar un auto\n2. Agregar una motocicleta\n3. Mostrar todos los vehiculos\n4. Guardar y salir")
+    print("1. Agregar un auto\n2. Agregar una motocicleta\n3. Mostrar todos los vehiculos\n4. Guardar y salir\n5. Escribirlo en csv\n6. Mostrar csv")
     respuesta = input("Introduce una opción:")
     match respuesta:
         case "1": introducirAuto()
@@ -56,4 +76,8 @@ while keepAlive:
         case "4": 
             guardarYSalir()
             keepAlive=False
+        case "5": 
+            guardarAutosCsv()
+        case "6": 
+            mostrarAutosCsv()
         case "_": print("Introduce una opción correcta")
