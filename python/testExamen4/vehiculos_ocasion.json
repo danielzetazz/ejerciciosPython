@@ -1,0 +1,16 @@
+[
+    {
+        "tipo": "turismo",
+        "marca": "Seat",
+        "modelo": "Ibiza",
+        "precio": 12000,
+        "kilometraje": 45000
+    },
+    {
+        "tipo": "furgoneta",
+        "marca": "Renault",
+        "modelo": "Kangoo",
+        "precio": 15000,
+        "capacidad_carga": 800
+    }
+]

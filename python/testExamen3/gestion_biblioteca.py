@@ -46,18 +46,26 @@ def buscarPorAutor(autor):
 def exportCsv():
     cabeceras= ["titulo", "autor", "anio", "genero"]
     with open("biblioteca.csv", "w", encoding="utf-8", newline="") as archivo:
-        hola = csv.DictWriter(archivo,fieldnames=cabeceras)
-        hola.writeheader()
+        escritor = csv.DictWriter(archivo, fieldnames=cabeceras)
+        escritor.writeheader()
         for m in listaMaterial:
-            if isinstance(m, Libro):
-                hola.writerow(m.to_dict2())
-            
+            if isinstance(m, Libro):escritor.writerow(m.to_dict2())
 
+    leerCsv()
+            
+def leerCsv():
+    with open("biblioteca.csv", "r", encoding="utf-8") as archivo:
+        lector = csv.reader(archivo)
+        for row in lector:
+            print(row)
+            
 keepAlive = True
 while keepAlive :
 
     print ("1.- Agregar libro\n2.- Agregar revista\n3.- Buscar por autor\n4.- Export a CSV\n5.- Guardar y salir")
     respuesta = input ("Introduce una opción: ")
+    for m in listaMaterial:
+        print(m.describir())
     match respuesta:
         case "1":
             agregarLibro()
