@@ -57,10 +57,32 @@ def guardarPremium():
             money+=pedido
         if money>500: clientesPremium.append(cliente)
     guardarClientesPremium(clientesPremium)
+import csv
+def guardarCsv():
+    cabeceras=["nombre", "email", "ciudad", "telefono", "pedidos"]
+    with open("clientes.csv", "w", encoding="utf-8", newline="") as archivo:
+        escritor = csv.DictWriter(archivo, fieldnames=cabeceras)
+        escritor.writeheader()
+        for c in listaClientes:
+            escritor.writerow(c.to_dict())
 
 
+def leerCsv():
+        with open("clientes.csv", "r", encoding="utf-8") as archivo:
+            lector=csv.reader(archivo)
+            for row in lector:
+                print(row)
+def leerCsvObjetos():
+        lista2 = []
+        with open("clientes.csv", "r", encoding="utf-8") as archivo:
+            lector=csv.reader(archivo)
+            lector.__next__()
+            for row in lector:
+                lista2.append(Cliente(row[0],row[1],row[2],row[3],row[4]))
+        for c in lista2:
+            print(c.__str__())
 while (keepAlive):
-    print("1.- Mostrar listado de clientes \n2.- Introducir nuevo cliente\n3.- Buscar por email\n4.- Guardar clientes Premium\n5.- Salir")
+    print("1.- Mostrar listado de clientes \n2.- Introducir nuevo cliente\n3.- Buscar por email\n4.- Guardar clientes Premium\n5. Guardar en csv\n6. Leer csv\n7.- Leer csv en objetos\nOtra : salir")
     respuesta= input("Introduce una opción: ")
     match respuesta:
         case "1" :
@@ -72,7 +94,11 @@ while (keepAlive):
             buscarPorEmail(email)
         case "4": 
             guardarPremium()
-        case "5" :
-            keepAlive=False
-        case "_": 
+        case "5": 
+            guardarCsv()
+        case "6": 
+            leerCsv()
+        case "7": 
+            leerCsvObjetos()
+        case _: 
             keepAlive=False
