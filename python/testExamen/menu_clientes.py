@@ -45,7 +45,8 @@ def introducirCliente():
 
 def buscarPorEmail(email):
     for cliente in listaClientes:
-        if cliente.email == email: print(f"{cliente.__str__()}, pedidos ordenados: {cliente.ordenarPedidos()}")
+        if cliente.email == email: 
+            print(f"{cliente.__str__()}, pedidos ordenados: {cliente.ordenarPedidos()}")
 
 def guardarPremium():
     clientesPremium=[]
